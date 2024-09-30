@@ -1,7 +1,7 @@
 require('../connection');
 
 const Song = require('../models/Song')
-const Author = require('../models/Author')
+
 
 const createSongs = async () => {
     const song = new Song({
@@ -21,16 +21,3 @@ const createSongs = async () => {
 }
 createSongs();
 
-const createAuthors = async () => {
-    const author = new Author({
-        name: 'Etta James',
-        listeners: 34
-    })
-    await author.save();
-    const author2 = new Author({
-        name: 'Aretha Franklin',
-        listeners: 45
-    })
-    await author2.save();
-}
-createAuthors();

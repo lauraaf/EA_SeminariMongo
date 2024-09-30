@@ -22,12 +22,14 @@ async function main() {
 
     const author = new Author({
         name: 'Amy Winehouse',
+        songs: ['Back to black', 'Love is a losing game', 'Stronger'],
         listeners: 57
     });
     const authorSaved = await author.save();
 
     const author2 = new Author({
         name: 'Beyonce',
+        songs: ['Daughter', 'Protector', 'Daddy Lessons', 'Diva'],
         listeners: 100
     });
     const authorSaved2 = await author2.save();

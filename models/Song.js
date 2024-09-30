@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const songSchema= new Schema({
+const songSchema = new Schema({
     name: String,
     album: String,
     author: String,

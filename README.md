@@ -1,4 +1,7 @@
-*Seminari MongoDB*
+# Seminari MongoDB*
 
-Conexió estables amb la base de dades
-Funcions CRUD impementades
+- Conexió establesa amb la base de dades
+
+- Funcions CRUD impementades
+
+- Aggregation: fent servir $match
