@@ -3,7 +3,7 @@ require('../connection');
 const Author = require('../models/Author')
 
 const deleteAuthor = async () => {
-    const deletedAuthor = await Author.deleteMany({name: 'Aretha Franklin'});
+    const deletedAuthor = await Author.deleteMany({name: 'Beyonce'});
     console.log(deletedAuthor)
 }
 deleteAuthor();
