@@ -12,8 +12,8 @@ const updateAuthor = async () => {
         songs: ['Daddy lessons', 'Daughter', 'Freedom']
     }, {new: true});
     console.log(author2);
-    const author3 = await Author.updateMany({name: 'Nina Simone'}, {
-        songs: ['Feeling good', 'My baby just cares for me', 'I put a spell on you']
+    const author3 = await Author.updateMany({name: 'Queen'}, {
+        songs: ['Break Free', 'Bohemian Rapsody', 'Under Pressure']
     }, {new: true});
     console.log(author3);
 }
